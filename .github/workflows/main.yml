@@ -16,7 +16,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::293785856967:user/rasimadmin
-          aws-region: eu-north-1
+          aws-region: eu-central-1
       
       - name: Login to Amazon ECR
         id: login-ecr-public
